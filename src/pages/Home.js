@@ -38,7 +38,7 @@ const Home = () => {
 
               <Bounce>
                 <NavLink
-                  to="/courses"
+                  to="/doctors"
                   className="rounded-pill btn btn-primary fs-5 py-2 px-4"
                 >
                   Our Specialist
