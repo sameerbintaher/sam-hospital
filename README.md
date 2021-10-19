@@ -22,3 +22,5 @@ iii. You can operate your disease by taking great advise from consultant <br><hr
 v. This is Completely responsive for mobile devices <br><hr> 
 
 So!! Why late? Book your appointment to SamHospital and diagnestic center.
+
+# I did this project as a practice before assignment. I just edit and add some feature to it. So some components name is not properly given related to project. I hope P Hero team will consider it. Later I will fix it. Thank You.
