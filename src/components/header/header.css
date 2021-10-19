@@ -1,0 +1,11 @@
+@media screen and (max-width: 688px) {
+  .title {
+    display: none;
+  }
+  
+  .navlink{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(2, 2, 2);
+  }
+}

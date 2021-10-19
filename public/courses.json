@@ -1,0 +1,101 @@
+[
+  {
+    "key": 1,
+    "img": "https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    "title": "DR Shekera Ahmed",
+    "desc": "Heart Specialist",
+    "price": 29.99,
+    "provider": "Sameer",
+    "rating": 5,
+    "ratingCount": "320",
+    "sellerThumb": "https://scontent.fcgp6-1.fna.fbcdn.net/v/t1.6435-9/48380221_2201770110065481_4279969313152040960_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=2-w9WaZNz0UAX8JC4BS&_nc_ht=scontent.fcgp6-1.fna&oh=2089bdc97aca9d5f1a234a1e6ac74f58&oe=6193B231"
+  },
+  {
+    "key": 2,
+    "img": "https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    "title": "DR Afroza",
+    "desc": "Gainochologist",
+    "price": 34.79,
+    "provider": "Sameer",
+    "rating": 4.2,
+    "ratingCount": "450",
+    "sellerThumb": "https://scontent.fcgp6-1.fna.fbcdn.net/v/t1.6435-9/48380221_2201770110065481_4279969313152040960_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=2-w9WaZNz0UAX8JC4BS&_nc_ht=scontent.fcgp6-1.fna&oh=2089bdc97aca9d5f1a234a1e6ac74f58&oe=6193B231"
+  },
+  {
+    "key": 3,
+    "img": "https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    "title": "DR M A Rouf",
+    "desc": "Medicine Specialist",
+    "price": 18.9,
+    "provider": "Sameer",
+    "rating": 4,
+    "ratingCount": "680",
+    "sellerThumb": "https://scontent.fcgp6-1.fna.fbcdn.net/v/t1.6435-9/48380221_2201770110065481_4279969313152040960_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=2-w9WaZNz0UAX8JC4BS&_nc_ht=scontent.fcgp6-1.fna&oh=2089bdc97aca9d5f1a234a1e6ac74f58&oe=6193B231"
+  },
+  {
+    "key": 4,
+    "img": "https://images.pexels.com/photos/5452268/pexels-photo-5452268.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    "title": "DR Ibrahim Chawdhury",
+    "desc": "Brain Specialist",
+    "price": 48.69,
+    "provider": "Sameer",
+    "rating": 3.5,
+    "ratingCount": "350",
+    "sellerThumb": "https://scontent.fcgp6-1.fna.fbcdn.net/v/t1.6435-9/48380221_2201770110065481_4279969313152040960_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=2-w9WaZNz0UAX8JC4BS&_nc_ht=scontent.fcgp6-1.fna&oh=2089bdc97aca9d5f1a234a1e6ac74f58&oe=6193B231"
+  },
+  {
+    "key": 5,
+    "img": "https://images.pexels.com/photos/5327656/pexels-photo-5327656.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    "title": "DR Nurul Karim",
+    "desc": "Eyes Nose and Teeth Specialist",
+    "price": 48.69,
+    "provider": "Sameer",
+    "rating": 4.5,
+    "ratingCount": "560",
+    "sellerThumb": "https://scontent.fcgp6-1.fna.fbcdn.net/v/t1.6435-9/48380221_2201770110065481_4279969313152040960_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=2-w9WaZNz0UAX8JC4BS&_nc_ht=scontent.fcgp6-1.fna&oh=2089bdc97aca9d5f1a234a1e6ac74f58&oe=6193B231"
+  },
+  {
+    "key": 6,
+    "img": "https://images.pexels.com/photos/5327864/pexels-photo-5327864.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    "title": "Dr Sharmeen",
+    "desc": "Child Specialist",
+    "price": 48.69,
+    "provider": "Sameer",
+    "rating": 4.0,
+    "ratingCount": "500",
+    "sellerThumb": "https://Sameer-images.netlify.app/Sameer.png"
+  },
+  {
+    "key": 7,
+    "img": "https://images.pexels.com/photos/4270371/pexels-photo-4270371.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    "title": "DR Sameer",
+    "desc": "Mind Specialist",
+    "price": 42.29,
+    "provider": "Sameer",
+    "rating": 3.5,
+    "ratingCount": "500",
+    "sellerThumb": "https://scontent.fcgp6-1.fna.fbcdn.net/v/t1.6435-9/48380221_2201770110065481_4279969313152040960_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=2-w9WaZNz0UAX8JC4BS&_nc_ht=scontent.fcgp6-1.fna&oh=2089bdc97aca9d5f1a234a1e6ac74f58&oe=6193B231"
+  },
+  {
+    "key": 8,
+    "img": "https://images.pexels.com/photos/4270360/pexels-photo-4270360.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    "title": "DR Amazon Khan",
+    "desc": "Mental Specialist",
+    "price": 47.69,
+    "provider": "Sameer",
+    "rating": 4.5,
+    "ratingCount": "500",
+    "sellerThumb": "https://scontent.fcgp6-1.fna.fbcdn.net/v/t1.6435-9/48380221_2201770110065481_4279969313152040960_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=2-w9WaZNz0UAX8JC4BS&_nc_ht=scontent.fcgp6-1.fna&oh=2089bdc97aca9d5f1a234a1e6ac74f58&oe=6193B231"
+  },
+  {
+    "key": 9,
+    "img": "https://images.pexels.com/photos/5214952/pexels-photo-5214952.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    "title": "DR Apple Khan",
+    "desc": "Sergeon",
+    "price": 48.69,
+    "provider": "Sameer",
+    "rating": 4.0,
+    "ratingCount": "500",
+    "sellerThumb": "https://scontent.fcgp6-1.fna.fbcdn.net/v/t1.6435-9/48380221_2201770110065481_4279969313152040960_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=2-w9WaZNz0UAX8JC4BS&_nc_ht=scontent.fcgp6-1.fna&oh=2089bdc97aca9d5f1a234a1e6ac74f58&oe=6193B231"
+  }
+]

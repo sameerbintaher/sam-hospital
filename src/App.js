@@ -1,23 +1,77 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import Home from "./pages/Home.js";
+import About from "./pages/About.js";
+import Contact from "./pages/Contact.js";
+import Courses from "./pages/Courses.js";
+import Cart from "./pages/Cart.js";
+import Login from "./pages/Login.js";
+import Signup from "./pages/Signup.js";
+import PageNotFound from "./pages/PageNotFound.js";
+import AuthProvider from "./contexts/AuthProvider.js";
+import Reset from "./pages/Reset.js";
+import Details from "./pages/Details.js";
+import PrivateRoute from "./route/PrivateRoute.js";
+import Footer from "./components/footer/Footer.js";
+import Header from "./components/header/Header.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <AuthProvider>
+        <Router>
+          <Header> </Header>
+
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+
+            <Route path="/home">
+              <Home></Home>
+            </Route>
+
+            <Route path="/about">
+              <About></About>
+            </Route>
+
+            <Route path="/contact">
+              <Contact></Contact>
+            </Route>
+
+            <Route exact path="/doctors">
+              <Courses></Courses>
+            </Route>
+
+            <PrivateRoute path="/cart">
+              <Cart></Cart>
+            </PrivateRoute>
+
+            <Route path="/login">
+              <Login></Login>
+            </Route>
+
+            <Route path="/signup">
+              <Signup></Signup>
+            </Route>
+
+            <Route path="/reset">
+              <Reset></Reset>
+            </Route>
+
+            <Route path="/courses/:key">
+              <Details></Details>
+            </Route>
+
+            <Route path="*">
+              <PageNotFound></PageNotFound>
+            </Route>
+          </Switch>
+          <Footer></Footer>
+        </Router>
+      </AuthProvider>
     </div>
   );
 }

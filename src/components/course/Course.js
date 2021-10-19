@@ -1,0 +1,75 @@
+import React from "react";
+import { Card, Col, Row } from "react-bootstrap";
+import Rating from "react-rating";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar as fullStar } from "@fortawesome/free-solid-svg-icons";
+import { faStar as emptyStar } from "@fortawesome/free-regular-svg-icons";
+import Zoom from "react-reveal/Zoom";
+import { NavLink } from "react-router-dom";
+import useAuth from "../../hooks/useAuth.js";
+
+const Course = ({ course }) => {
+  const { key, img, title, desc, price, rating, ratingCount } = course;
+
+  const { addToCart } = useAuth();
+
+  return (
+    <Col sm={12} md={6} lg={4}>
+      <Zoom>
+        <div className="m-2">
+          <Card className="mx-auto w-100">
+            <Card.Img variant="top" className="img-fluid" src={img} />
+            <Card.Body className="my-1 py-1">
+              <Card.Title>{title}</Card.Title>
+              <Card.Text>{desc}</Card.Text>
+            </Card.Body>
+            <Card.Body className="my-1 py-1">
+              <h4>Consult Fee: <span className='text-primary'> ${price}</span></h4>
+            </Card.Body>
+            <Card.Body className="my-1 py-1">
+              <Row>
+                <Col>
+                  <Rating
+                    initialRating={rating}
+                    readonly
+                    emptySymbol={
+                      <FontAwesomeIcon
+                        className="text-warning"
+                        icon={emptyStar}
+                      />
+                    }
+                    fullSymbol={
+                      <FontAwesomeIcon
+                        className="text-warning"
+                        icon={fullStar}
+                      />
+                    }
+                  />
+                  <span>{rating}</span>
+                </Col>
+                <Col>Currently Running Patient: <span className='text-primary'>{ratingCount}</span></Col>
+              </Row>
+            </Card.Body>
+            <Card.Body className="d-flex">
+              <NavLink
+                to={`/courses/${key}`}
+                className="btn btn-primary w-100 me-1"
+              >
+                Know More About him/her
+              </NavLink>
+
+              <button
+                onClick={() => addToCart(course)}
+                className="btn btn-primary  w-100"
+              >
+                Make an Appointment
+              </button>
+            </Card.Body>
+          </Card>
+        </div>
+      </Zoom>
+    </Col>
+  );
+};
+
+export default Course;
